@@ -1,0 +1,90 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+  }
+
+.intro {
+  font-weight: bold;
+}
+
+.Subheader {
+font-weight: lighter;
+font-style: oblique;
+}
+  
+  h1 {
+    color: rgb(226, 226, 226);
+    
+  }
+  
+  
+  p, 
+  li {
+    list-style: none;
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 10px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+
+ input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 10px;
+  color: black;
+  background-color: rgb(245, 245, 245);
+  text-align: left;
+  }
+
+  #enter {
+   border-style: none;
+    margin: 5px 15px;
+    padding: 10px;
+    color: rgb(183, 175, 175);
+    transition: all 0.5 ease;
+  }
+  #enter:hover {
+    border-style: none;
+     margin: 5px 15px;
+     color: rgb(195, 5, 228);
+    
+   }
+
+   button {
+    border-style: none;
+   }
+
+   button:hover {
+    color: rgb(195, 5, 228);
+   }
+
+ul li {
+  text-align: left;
+padding: 10px;
+background-color: aliceblue;
+max-width: 1000px;
+color: black;
+margin-left: 150px;
+border-radius: 2px;
+}
+ul li > button {
+  background: none;
+  float: right;
+}
+
+ul li:hover {
+  background-color: rgb(0, 146, 0);
+}
+
+.done {
+  background-color: rgb(0, 146, 0) !important;
+}
+
+.delete {
+  display: none;
+}
